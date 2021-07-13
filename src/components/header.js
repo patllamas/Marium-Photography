@@ -1,15 +1,19 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import logo from '../images/logodp.jpg'
+import './Header.css'
 
 const Header = ({ siteTitle }) => (
-  <header>
-    <div>
-        <Link to="/">
-          {siteTitle}
-        </Link>
+  <div className='Header'>
+    <div className='HeaderGroup'>
+      <Link to="/"><img src={require('../images/logodp.jpg').default} width='30' /></Link>
+      <Link to="/portfolio">Portfolio</Link>
+      <Link to="/about">About Me</Link>
+      <Link to="/reviews">Reviews</Link>
+      <Link to="/hire"><button>Hire Me</button></Link>
     </div>
-  </header>
+  </div>
 )
 
 Header.propTypes = {

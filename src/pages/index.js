@@ -17,7 +17,6 @@ const IndexPage = () => (
         <Link to="/page-2/">Hire Me</Link>
       </div>
     </div>
-
   </Layout>
 )
 
