@@ -15,7 +15,7 @@ const IndexPage = () => (
         <p>Speed and Aesthetics</p>
         <p>Unrivaled Photography and Graphics Design</p>
         <br />
-        <Link to="/page-2/">Hire Me</Link>
+        <Link to="/page-2/">Book Me</Link>
         <div className='Logos'>
           <img alt='logo' src={require('../images/logos/photoshop.png').default} width='50' />
           <img alt='logo' src={require('../images/logos/lightroom.png').default} width='50' />
@@ -38,6 +38,7 @@ const IndexPage = () => (
           </path>
         </svg>
       </div>
+      <br />
       <div className='Cards'>
         <h2>Previous Work</h2>
         <div className='CardGroup'>

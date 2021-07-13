@@ -110,13 +110,15 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+.Cards {
+  padding-top: 20px;
+}
 
 .Cards h2 {
   margin: 50px 20px;
   font-size: 60px;
   text-align: center;
   font-weight: 700;
-  margin-top: 150px;
   background: linear-gradient(104deg, #808FC8 0%, black 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
