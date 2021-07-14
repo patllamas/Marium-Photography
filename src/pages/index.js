@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -21,7 +20,6 @@ const IndexPage = () => (
           <img alt='logo' src={require('../images/logos/lightroom.png').default} width='50' />
           <img alt='logo' src={require('../images/logos/illustrator.png').default} width='50' />
           <img alt='logo' src={require('../images/logos/twitter.png').default} width='50' />
-          <img alt='logo' src={require('../images/logos/facebook.jpg').default} width='50' />
           <img alt='logo' src={require('../images/logos/discord.png').default} width='50' />
         </div>
 

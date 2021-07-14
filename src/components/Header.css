@@ -4,6 +4,7 @@
     padding: 50px 0;
     z-index: 100;
     transition: .8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    font-size: 17px;
 }
 
 .HeaderScrolled {
@@ -22,12 +23,12 @@
 
 .Header a {
     color: black;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .Header button {
     padding: 8px 20px;
-    font-size: 20px;
+    font-size: 16px;
     background: #808FC8;
     border: none;
     font-weight: 700;
