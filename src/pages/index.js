@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Card from "../components/Card"
+import Section from "../components/Section"
 
 const IndexPage = () => (
   <Layout>
@@ -49,6 +50,12 @@ const IndexPage = () => (
           <Card title='Sports' text='' image={require('../images/sports.jpg').default} />
         </div>
       </div>
+      <Section 
+        image={require('../images/backgrounds/samanthagades.jpg').default}
+        logo ={require('../images/logodp.jpg').default}
+        title='Beans'
+        text='Marium does the finest work for photography.'
+      />
     </div>
   </Layout>
 )
